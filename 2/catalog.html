@@ -30,13 +30,14 @@
         <a class="navigation-link" href="#">Корзина</a>
       </li>
     </ul>
+    </nav>
     <ul class="navigation-list-user">
         <!--<li class="navigation-list-user-item">--><!--Как закрепить надпись Каталог товаров?-->
         <select class="navigation-list-catalog" aria-label="Сортировка">
           <optgroup class="navigation-user-link">Каталог товаров
           <option value="virtual-reality"><a href="catalog-virtualreality.html">Виртуальная реальность</a></option><!--Нужно ли добавлять ссылки на каждый пункт списка?-->
           <option value="monopods">Моноподы для селфи</option>
-          <option value="virtual-reality">Экшнкамеры</option>
+          <option value="virtual-reality">Экшн-камеры</option>
           <option value="virtual-reality">Фитнес-браслеты</option>
           <option value="virtual-reality">Умные часы</option>
           <option value="virtual-reality">Квадрокоптеры</option>
@@ -53,7 +54,6 @@
           <a class="navigation-user-link" href="#">Контакты</a>
         </li>
     </ul>
-    </nav>
   </header>
 
   <main class="main-catalog">
@@ -72,7 +72,7 @@
 
     <section class="catalog-products">
       <h2 class="visually-hidden">Список товаров с фильтрами</h2>
-      <h3 class="section-name">Фильтр:</h3>
+        <h3 class="section-name">Фильтр:</h3>
       <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
       <fieldset class="catalog-filter-group">
         <legend class="catalog-filter-title">Стоимость</legend>
@@ -128,77 +128,71 @@
       <ul class="product-list">
         <li class="product-card">
           <a class="product-card-link" href="product.html">
-            <img class="product-card-image" src="" alt="">
-            <h4 class="product-card-title">Любительская
-селфи-палка</h4>
-            <b>500 Р</b>
+            <img class="product-card-image" src="" alt="Изображение продукта "Любительская селфи-палка"">
+            <h4 class="product-card-title">Любительская селфи-палка</h4>
+            <b>500&#160&#8381</b>
           </a>
         </li>
         <li class="product-card">
           <a class="product-card-link" href="product.html">
-            <img class="product-card-image" src="" alt="">
+            <img class="product-card-image" src="" alt="Изображение продукта "Профессиональная селфи-палка"">
             <h4 class="product-card-title">Профессиональная селфи-палка</h4>
-            <b>1 500 Р</b>
+            <b>1500&#160&#8381</b>
           </a>
         </li>
         <li class="product-card">
           <a class="product-card-link" href="product.html">
-            <img class="product-card-image" src="" alt="">
-            <h4 class="product-card-title">Непотопляемая
-селфи-палка</h4>
-            <b>2 500 Р</b>
+            <img class="product-card-image" src="" alt="Изображение продукта "Непотопляемая селфи-палка"">
+            <h4 class="product-card-title">Непотопляемая селфи-палка</h4>
+            <b>2500&#160&#8381</b>
           </a>
         </li>
         <li class="product-card">
           <a class="product-card-link" href="product.html">
-            <img class="product-card-image" src="" alt="">
+            <img class="product-card-image" src="" alt="Изображение продукта "Селфи-палка «Следуй за мной"">
             <h4 class="product-card-title">Селфи-палка «Следуй за мной»</h4>
-            <b>1 500 Р</b>
+            <b>1500&#160&#8381</b>
           </a>
         </li>
       </ul>
       <button class="button pagination-show-more" type="button">Загрузить ещё</button>
-      <button type="button" name="button"></button>
       <ul class="pagination">
-  <li class="pagination-item">
-    <a class="pagination-link pagination-prev pagination-disabled">
-      <span>назад</span>
-    </a>
-  </li>
-  <li class="pagination-item">
-    <a class="pagination-link pagination-current">1</a>
-  </li>
-  <li class="pagination-item">
-    <a class="pagination-link" href="#">2</a>
-  </li>
-  <li class="pagination-item">
-    <a class="pagination-link" href="#">3</a>
-  </li>
-  <li class="pagination-item">
-    <a class="pagination-link" href="#">...</a>
-  </li>
-  <li class="pagination-item">
-    <a class="pagination-link" href="#">16</a>
-  </li>
-  <li class="pagination-item">
-    <a class="pagination-link pagination-next" href="#">
-      <span>вперед</span>
-    </a>
-  </li>
-</ul>
+        <li class="pagination-item">
+          <a class="pagination-link pagination-prev pagination-disabled">
+            <span>назад</span>
+          </a>
+        </li>
+        <li class="pagination-item">
+          <a class="pagination-link pagination-current">1</a>
+        </li>
+        <li class="pagination-item">
+          <a class="pagination-link" href="#">2</a>
+        </li>
+        <li class="pagination-item">
+          <a class="pagination-link" href="#">3</a>
+        </li>
+        <li class="pagination-item">
+          <a class="pagination-link" href="#">...</a>
+        </li>
+        <li class="pagination-item">
+          <a class="pagination-link" href="#">16</a>
+        </li>
+        <li class="pagination-item">
+          <a class="pagination-link pagination-next" href="#">
+            <span>вперед</span>
+          </a>
+        </li>
+      </ul>
    </section>
-
-
   </main>
 
   <footer class="page-footer">
-    <section class="footer-address">
+    <div class="footer-address">
       <img src="" alt="Логотип интернет-магазина">
-      <p class="footer-address-text">Санкт-Петербург, набережная
-реки Карповки, 5, литера П.</p>
-    </section>
+      <p class="footer-address-text">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
+    </div>
 
-    <section class="footer-navigation">
+    <div class="footer-navigation">
       <ul class="footer-navigation-list">
         <li class="footer-navigation-list-item">
           <a class="footer-navigation-list-link" href="#">Доставка</a>
@@ -227,14 +221,14 @@
           </a>
         </li>
       </ul>
-    </section>
+    </div>
 
-    <section>
+    <nav>
       <a class="contacts-phone" href="tel:88128121212">Тел: +7(812)812-12-12</a>
       <p>
         <a class="htmlacademy-link" href="https://htmlacademy.ru/">.html academy</a>
       </p>
-    </section>
+    </nav>
 
   </footer>
   </body>
